@@ -1,0 +1,4 @@
+# Default Gemini model for LinkedIn drafts.
+# Override without editing code: set GEMINI_MODEL in the environment
+# or in .streamlit/secrets.toml. Do not put an API key in this file.
+model = "gemini-3.8-flash"

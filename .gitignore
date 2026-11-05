@@ -1,0 +1,31 @@
+# Local secrets. Never commit.
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Tokens and key material.
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+token.json
+tokens.json
+credentials.json
+*-credentials.json
+service-account*.json
+
+# Private writing samples. The app keeps these in the browser session.
+# If they are saved on disk, keep them out of Git.
+writing_examples/
+writing-examples/
+my_writing_examples.*
+my-writing-examples.*
+private_posts/
+private-posts/
+
+# Local Python install, if this folder is pushed on its own.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
